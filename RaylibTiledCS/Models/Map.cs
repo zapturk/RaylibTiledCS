@@ -1,4 +1,4 @@
-namespace RalylibTiledCS;
+namespace RaylibTiledCS.Models;
 
 /// <summary>
 /// Tiled Map

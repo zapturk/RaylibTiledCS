@@ -1,4 +1,4 @@
-namespace RalylibTiledCS;
+namespace RaylibTiledCS.Models;
 
 /// <summary>
 /// Tiled Layer Type
@@ -29,7 +29,7 @@ public enum LayerType
 /// <summary>
 /// Tiled Property Type
 /// </summary>
-public enum propertyType
+public enum PropertyType
 {
     /// <summary>
     /// Tiled Bool

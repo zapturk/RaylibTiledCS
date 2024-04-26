@@ -5,6 +5,13 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaylibTiledCS", "RaylibTiledCS\RaylibTiledCS.csproj", "{F820E7BF-FEDC-4FC0-8707-492890F2D476}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC701EE0-00E1-413C-8B6D-CBA7668513F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{34D46901-C863-4B01-9744-C8CA8374F419}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F820E7BF-FEDC-4FC0-8707-492890F2D476} = {F820E7BF-FEDC-4FC0-8707-492890F2D476}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{F820E7BF-FEDC-4FC0-8707-492890F2D476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F820E7BF-FEDC-4FC0-8707-492890F2D476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F820E7BF-FEDC-4FC0-8707-492890F2D476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D46901-C863-4B01-9744-C8CA8374F419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D46901-C863-4B01-9744-C8CA8374F419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D46901-C863-4B01-9744-C8CA8374F419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D46901-C863-4B01-9744-C8CA8374F419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

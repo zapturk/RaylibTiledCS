@@ -1,4 +1,4 @@
-namespace RalylibTiledCS;
+namespace RaylibTiledCS.Models;
 
 /// <summary>
 /// Tiled Property
@@ -13,7 +13,7 @@ public class Property{
     /// <summary>
     /// Type of the property
     /// </summary>
-    public propertyType Type { get; set;}
+    public PropertyType Type { get; set;}
 
     /// <summary>
     /// Value of the property

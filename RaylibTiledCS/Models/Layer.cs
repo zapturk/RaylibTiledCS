@@ -1,4 +1,4 @@
-namespace RalylibTiledCS;
+namespace RaylibTiledCS.Models;
 
 public class Layer
 {
@@ -7,6 +7,4 @@ public class Layer
     public int Width {get; set;}
     public int Height {get; set;}
     public LayerType Type {get; set;}
-    
-
 }
